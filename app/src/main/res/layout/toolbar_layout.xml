@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_top_bar"
+    android:background="@color/top_bar_normal_bg"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/toolbar_home"
+        android:layout_width="38dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/common_tab_bg"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:id="@+id/toolbar_username"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/toolbar_home"
+        android:text="雨一直下"
+        android:textColor="@color/bottom_text_color_normal"
+        android:textSize="14sp" />
+
+
+    <ImageView
+        android:id="@+id/toolbar_new"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/common_tab_bg"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/add" />
+
+
+</RelativeLayout>
