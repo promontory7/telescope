@@ -114,10 +114,7 @@ public class ContactlistFragment extends Fragment {
 
             });
         }
-
     }
-
-    ;
 
     class HXContactInfoSyncListener implements HXSDKHelper.HXSyncListener {
 

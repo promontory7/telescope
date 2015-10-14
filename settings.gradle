@@ -1,2 +1,2 @@
-include ':app', ':smssdk'
+include ':app', ':smssdk', ':lingyanjar'
 include ':slidingmenu'
